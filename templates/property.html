@@ -3,7 +3,7 @@
 {% block title %} Properties | Bhat Constructions{% endblock %}
 {% load static %}
 {% block body %}
-<header class="page-header" data-background="images/2.jpg" data-stellar-background-ratio="1.15">
+<header class="page-header" data-background="{% static 'images/2.jpg'%}" data-stellar-background-ratio="1.15">
   <div class="container">
     <h1>Properties</h1>
     <p>We treat the customer like they would want to be treated</p>
@@ -24,7 +24,7 @@
         <div class="product-grid">
             <div class="product-image">
                 <a href="#" class="image">
-                    <img src="images/blog01.jpg">
+                    <img src="{% static 'images/blog01.jpg'%}">
                 </a>
 
                 <ul class="product-links">
@@ -42,7 +42,7 @@
         <div class="product-grid">
             <div class="product-image">
                 <a href="#" class="image">
-                    <img src="images/blog02.jpg">
+                    <img src="{% static 'images/blog02.jpg'%}">
                 </a>
 
                 <ul class="product-links">
@@ -60,7 +60,7 @@
         <div class="product-grid">
             <div class="product-image">
                 <a href="#" class="image">
-                    <img src="images/blog03.jpg">
+                    <img src="{% static 'images/blog03.jpg'%}">
                 </a>
 
                 <ul class="product-links">
