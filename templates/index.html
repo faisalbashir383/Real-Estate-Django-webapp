@@ -1,0 +1,257 @@
+{% extends 'base.html'%}
+{% block title %}Home | Bhat Constructions{% endblock %}
+{% load static %}
+{% block body %}
+  <!-- end navbar -->
+  <header class="slider">
+    <div class="slider-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-background="{% static 'images/1.jpg'%}" data-stellar-background-ratio="1.15">
+          <div class="container">
+            <h1><span>Affordable</span> Luxury Residences</h1>
+            <h2>Living Spaces in Jammu & Kashmir</h2>
+            <a href="{%url 'contact'%}">GET A CONSULTATION <i class="fas fa-caret-right"></i></a>
+
+          </div>
+          <!-- end container -->
+        </div>
+        <!-- end swiper-slide -->
+        <div class="swiper-slide" data-background="{% static 'images/2.jpg'%}" data-stellar-background-ratio="1.15">
+          <div class="container">
+            <h1> Premium Flats</h1>
+            <h2>Provide a decent level of comfort </h2>
+            <a href="{%url 'contact'%}">GET A CONSULTATION <i class="fas fa-caret-right"></i></a>
+
+          </div>
+          <!-- end container -->
+        </div>
+        <!-- end swiper-slide -->
+        <div class="swiper-slide" data-background="{% static 'images/3.jpg'%}" data-stellar-background-ratio="1.15">
+          <div class="container">
+            <h1><span>Bhat Cønstructions</span> Elite Residences</h1>
+            <h2>We build your dream house</h2>
+            <a href="{%url 'contact'%}">GET A CONSULTATION <i class="fas fa-caret-right"></i></a>
+
+          </div>
+          <!-- end container -->
+        </div>
+        <!-- end swiper-slide -->
+      </div>
+      <!-- Add Pagination -->
+      <div class="inner-elements">
+        <div class="container">
+          <div class="pagination"></div>
+          <!-- end pagination -->
+          <div class="button-prev">PREV</div>
+          <!-- end button-prev -->
+          <div class="button-next">NEXT</div>
+          <!-- end button-next -->
+          <div class="social-media">
+            <h6>SOCIAL MEDIA</h6>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+            </ul>
+          </div>
+          <!-- end social-media -->
+        </div>
+        <!-- end container -->
+      </div>
+      <!-- end inner-elements -->
+    </div>
+    <!-- end slider-container -->
+  </header>
+  <!-- end slider -->
+  <section class="intro">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <figure>
+            <div class="pattern-bg" data-stellar-ratio="1.07"></div>
+            <!-- end pattern-bg -->
+            <div class="holder" data-stellar-ratio="1.10"> <img src="{% static 'images/side-image01.jpg'%}" alt="Image"></div>
+            <!-- end holder -->
+          </figure>
+        </div>
+        <!-- end col-6 -->
+        <div class="col-lg-6 wow fadeInUp">
+          <div class="content-box"> <b>About Us</b>
+            <h4><span>Bhat</span> Construction's</h4>
+            <h3>Living spaces for creative peoples</h3>
+            <p>Founded in 2008, Bhat Constructions has grown to a Nationally recognized company built on a foundation of hard work and dedication specializing in Framing PFR & DPR, Interior Design, Valuation, Estimation & Cost Engineering, Construction of Residention & Commercial Properties, Property Dealing and Dealing in Building Material. </p>
+            <a href="{%url 'work'%}"> See our projects</a>
+          </div>
+          <!-- end content-box -->
+        </div>
+        <!-- edn col-6 -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end intro -->
+
+  <!-- end logos -->
+  <section class="benefits">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 wow fadeInUp"> <b>See our work impressions going high.</b>
+          <h4><span>Bhat</span> Constructions</h4>
+         
+        </div>
+        <!-- end col-12 -->
+        <div class="col wow fadeInUp" data-wow-delay="0s">
+          <figure> <img src="{% static 'images/icon-benefits01.png'%}" alt="Image"> <b></b> </figure>
+          <h6>Near to Srinagar</h6>
+          <span class="odometer" data-count="28" data-status="yes">0</span> <span class="extra">min</span>
+        </div>
+        <!-- end col -->
+        <div class="col wow fadeInUp" data-wow-delay="0.05s">
+          <figure> <img src="{% static 'images/icon-benefits02.png'%}" alt="Image"> <b></b> </figure>
+          <h6>Spaces in Jammu & Kashmir</h6>
+          <span class="odometer" data-count="20" data-status="yes">0</span> <span class="extra">+</span>
+        </div>
+        <!-- end col -->
+        <div class="col wow fadeInUp" data-wow-delay="0.10s">
+          <figure> <img src="{% static 'images/icon-benefits03.png'%}" alt="Image"> <b></b> </figure>
+          <h6>Customer Satisfaction</h6>
+          <span class="odometer" data-count="90" data-status="yes">0</span> <span class="extra">%</span>
+        </div>
+        <!-- end col -->
+        <div class="col wow fadeInUp" data-wow-delay="0.15s">
+          <figure> <img src="{% static 'images/icon-benefits04.png'%}" alt="Image"> <b></b> </figure>
+          <h6>Market Presence</h6>
+          <span class="odometer" data-count="14" data-status="yes">0</span> <span class="extra">+years</span>
+        </div>
+        <!-- end col -->
+        <div class="col wow fadeInUp" data-wow-delay="0.20s">
+          <figure> <img src="{% static 'images/icon-benefits05.png'%}" alt="Image"> <b></b> </figure>
+          <h6>Built Dream Houses</h6>
+          <span class="odometer" data-count="100" data-status="yes">0</span> <span class="extra">+</span>
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end benefits -->
+  <section class="recent-gallery">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 wow fadeInUp"> 
+          <h4><span>Recent</span> work </h4> 
+          <h3> Beautifully constructed and designed house for our client. 
+            <span> Located at  Chinar Colony, Kanipora, Srinagar</span>  </h3>
+          <a href="{%url 'work'%}" class="link">SEE ALL PROJECTS <i class="fas fa-caret-right"></i></a>
+        </div>
+        <!-- end col-5 -->
+        <div class="col-lg-7">
+          <div class="row inner">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0s">
+              <figure data-stellar-ratio="1.07"> <a href="images/gallery-thumb01.jpg" data-fancybox><img
+                    src="{% static 'images/gallery-thumb01.jpg'%}" alt="Image"></a> </figure>
+            </div>
+            <!-- end col-4 -->
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.05s">
+              <figure data-stellar-ratio="1.15"> <a href="images/gallery-thumb02.jpg" data-fancybox><img
+                    src="{% static 'images/gallery-thumb02.jpg'%}" alt="Image"></a> </figure>
+            </div>
+            <!-- end col-4 -->
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.10s">
+              <figure data-stellar-ratio="1.04"> <a href="images/gallery-thumb03.jpg" data-fancybox><img
+                    src="{% static 'images/gallery-thumb03.jpg'%}" alt="Image"></a> </figure>
+            </div>
+            <!-- end col-4 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end col-7 -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end recent-gallery -->
+ <!-- <section class="property-calculator">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <figure>
+            <div class="pattern-bg" data-stellar-ratio="1.03"></div>
+             end pattern-bg 
+            <div class="holder" data-stellar-ratio="1.07"> <img src="images/side-image02.jpg" alt="Image"></div>
+            
+          </figure>
+        </div>
+        
+        <div class="col-lg-6 wow fadeInUp">
+          <div class="content-box"> <b>02</b>
+            <h4><span>Our</span> Recent Projects</h4>
+            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio natus impedit iusto illum obcaecati, explicabo velit hic repellat architecto asperiores? </p>
+
+            <a href="work.html"> See all projects</a>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </section>
+    end property-calculator -->
+
+  <!-- property-plans -->
+  <section class="get-consultation" data-background="{% static 'images/section-bg01.jpg'%}" data-stellar-background-ratio="0.9">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 fadeInUp wow">
+          <div class="content-box"> 
+            <h4><span>Bhat Constructions</span> Living Spaces</h4>
+            <h3>We have lot of properties on sale</h3>
+            <p>We are here to help and guide you for your first dream house.</p>
+            <a href="{%url 'property'%}"> Properties for SALE <i class="fas fa-caret-right"></i></a>
+          </div>
+          <!-- end content-box -->
+        </div>
+        <!-- end col-6 -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end get-consultation -->
+
+
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <!--<h2 class="text-center" style="margin-bottom: 50px;font-weight: 600;">Testmonials</h2>-->
+      </div>
+      <div class="col-md-12">
+        <div id="testimonial-slider" class="owl-carousel">
+            {% for i in testmonial %}
+          <div class="testimonial">
+            <p class="description">{{i.desc}}</p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="../{{i.img}}">
+              </div>
+              <h3 class="title">{{i.name}}</h3>
+            </div>
+          </div>
+             {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock %}

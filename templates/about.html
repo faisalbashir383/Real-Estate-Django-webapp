@@ -1,0 +1,81 @@
+{% extends 'base.html'%}
+{% block title %}About | Bhat Constructions{% endblock %}
+{% load static %}
+{% block body %}
+<header class="page-header" data-background="{% static 'images/1.jpg'%}" data-stellar-background-ratio="1.15">
+	<div class="container">
+		<h1>About Us</h1>
+		<p>We will make your dreams into reality.</p>
+		  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{% url 'index'%}">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">About Us</a></li>
+  </ol>
+	</div>
+	<!-- end container -->
+</header>
+<!-- end page-header -->
+<section class="about-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				  <h2><span>Bhat</span> Constructions</h2>
+        <h5>By aiming to take the life quality to an upper level with the whole realized Projects of luxury.</h5>
+			</div>
+			<!-- end col-12 -->
+			 <div class="col-lg-7">
+        <p>Founded in 2008, Bhat Constructions has grown to a Nationally recognized company built on a foundation of hard work and dedication specializing in Framing PFR & DPR, Interior Design, Valuation, Estimation & Cost Engineering, Construction of Residention & Commercial Properties, Property Dealing and Dealing in Building Material. </p>
+      </div>
+      <!-- en col-7 -->
+      <div class="col-lg-5">
+        <p>Our unique design and build capabilities have helped us deliver projects of the highest standards at competitive prices and within specified time frames. </p>
+      </div>
+      <!-- end col-5 -->
+      
+      <div class="col-12">
+        <div class="gallery-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="{% static 'images/blog01.jpg'%}" alt="Image"></div>
+      <div class="swiper-slide"><img src="{% static 'images/blog02.jpg'%}" alt="Image"></div>
+      <div class="swiper-slide"><img src="{% static 'images/blog03.jpg'%}" alt="Image"></div>
+      <div class="swiper-slide"><img src="{% static 'images/blog04.jpg'%}" alt="Image"></div>
+    </div>
+    <!-- add swiper-wrapper -->
+    <div class="gallery-pagination"></div>
+    <!-- end gallery-pagination -->
+  </div>
+       <!-- end gallery-container -->
+        <h4>BUILD WITH PURPOSE</h4>
+        <p>Every project starts with careful site selection and a cultural understanding of the neighborhoods we build in. Our vision is brought to life through the execution of our experienced and driven staff, coupled with the partnerships we have established with top architects, engineers, and sub-contractors. Our process enables us to consistently deliver a look and feel that is unique to our firm’s goal of creating modern luxury living concepts that seamlessly embed into the historic communities they inhabit. We understand that development projects must be completed in a way that’s both sustainable and aesthetically pleasing in relation to its surroundings. Our innovative solutions make that possible without the need for compromise. </p><br>
+       
+			</div>
+       <!-- end col-12 -->
+       <div class="col-12">
+        <h4>DESIGNS OF DISTINCTION</h4>
+       	
+          <p>Our buildings are designed using historical inspiration combined with contemporary building techniques, changing the face of historic neighborhoods with buildings that feel modern but embrace the styles of the surrounding community. The homes we build help define the community as much as the people who live within them. At the core of our architectural principle is a combination of simple, elegant design and livability with a focus on developing infill locations to revitalize great communities. We design modern classics that become focal points for owners and tenants.</p>
+        
+       </div>
+       <!-- end col-6 -->
+       <div class="col-12">
+        <h4>VISIONARY LEADERSHIP</h4>
+           <p>Bhat Construction is paving the way for established communities to find new potential under the creative direction of the company’s visionary leadership. We have a dynamic and focused team of construction, operations, and business development experts who share a vision of building innovative, modern living spaces. When investors are looking for the best real estate projects in the most promising areas, they build with us.</p>
+       </div>
+       <!-- end col-6 -->
+       <div class="col-lg-9">
+       	<div class="video-content">
+       		<video src="{% static 'videos/video01.mp4'%}" controls muted></video>
+       	</div>
+       	<!-- end video-content -->
+       </div>
+       <!-- end col-9 -->
+      
+      </div>
+      <!-- en col-12 -->
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+</section>
+<!-- end about-content -->
+
+{% endblock %}

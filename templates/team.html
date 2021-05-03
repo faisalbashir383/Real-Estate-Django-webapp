@@ -1,0 +1,100 @@
+
+{% extends 'base.html'%}
+{% block title %} Our Team | Bhat Constructions{% endblock %}
+{% load static %}
+{% block body %}
+<header class="page-header" data-background="{% static 'images/blog03.jpg'%}" data-stellar-background-ratio="1.15">
+	<div class="container">
+		<h1>Our Team</h1>
+		<p>The difference between success and failure is a great team</p>
+		  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{% url 'index'%}">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Our Team</li>
+  </ol>
+	</div>
+	<!-- end container -->
+</header>
+<!-- end page-header -->
+<section class="sales-team">
+  <div class="container">
+    <div class="row">
+		<div class="col-md-6">
+			<figure><img src="{% static 'images/team01.jpg'%}" alt="Image">
+			<figcaption>
+			<h4><span>Mudasir</span> Bhat</h4>
+			<small>Director</small>
+			<ul>
+				<li><a href="#"><i class="fab fa-facebook-f"></i>FACEBOOK</a></li>
+			</ul>
+			</figcaption>
+			</figure>
+		</div>
+  <div class="col-md-6">
+			<figure><img src="{% static 'images/team02.jpg'%}" alt="Image">
+			<figcaption>
+			<h4><span>Muzamil</span> Bhat</h4>
+			<small>Managing Director</small>
+			<ul>
+				<li><a href="#"><i class="fab fa-facebook-f"></i>FACEBOOK</a></li>
+			</ul>
+			</figcaption>
+			</figure>
+		</div>
+
+ <!--  <div class="col-md-6">
+			<figure><img src="images/team03.jpg" alt="Image">
+			<figcaption>
+			<h4><span>Sasha</span> Alexander</h4>
+			<small>Senior Sales Officer</small>
+			<ul>
+				<li><a href="#"><i class="fab fa-linkedin-in"></i>LINKEDIN</a></li>
+				<li><a href="#"><i class="fab fa-facebook-f"></i>FACEBOOK</a></li>
+			</ul>
+			</figcaption>
+			</figure>
+		</div>
+   <div class="col-md-6">
+			<figure><img src="images/team04.jpg" alt="Image">
+			<figcaption>
+			<h4><span>Sasha</span> Alexander</h4>
+			<small>Senior Sales Officer</small>
+			<ul>
+				<li><a href="#"><i class="fab fa-linkedin-in"></i>LINKEDIN</a></li>
+				<li><a href="#"><i class="fab fa-facebook-f"></i>FACEBOOK</a></li>
+			</ul>
+			</figcaption>
+			</figure>
+		</div>
+   
+   <div class="col-md-6">
+			<figure><img src="images/team05.jpg" alt="Image">
+			<figcaption>
+			<h4><span>Sasha</span> Alexander</h4>
+			<small>Senior Sales Officer</small>
+			<ul>
+				<li><a href="#"><i class="fab fa-linkedin-in"></i>LINKEDIN</a></li>
+				<li><a href="#"><i class="fab fa-facebook-f"></i>FACEBOOK</a></li>
+			</ul>
+			</figcaption>
+			</figure>
+		</div>
+<div class="col-md-6">
+			<figure><img src="images/team06.jpg" alt="Image">
+			<figcaption>
+			<h4><span>Sasha</span> Alexander</h4>
+			<small>Senior Sales Officer</small>
+			<ul>
+				<li><a href="#"><i class="fab fa-linkedin-in"></i>LINKEDIN</a></li>
+				<li><a href="#"><i class="fab fa-facebook-f"></i>FACEBOOK</a></li>
+			</ul>
+			</figcaption>
+			</figure>
+		</div>    
+    end col-6 -->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container --> 
+</section>
+<!-- end sales-team -->
+{% endblock %}

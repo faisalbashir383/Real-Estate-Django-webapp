@@ -1,0 +1,54 @@
+
+{% extends 'base.html'%}
+{% block title %} Our Work | Bhat Constructions{% endblock %}
+{% load static %}
+{% block body %}
+<header class="page-header" data-background="{% static 'images/blog01.jpg'%}" data-stellar-background-ratio="1.15">
+  <div class="container">
+    <h1>Our Portfolio</h1>
+    <p>Build your own dreams or someone else will hire you to build theirs</p>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'index'%}">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Photo Gallery</li>
+    </ol>
+  </div>
+  <!-- end container --> 
+</header>
+<!-- end page-header -->
+<section class="photo-gallery">
+  <div class="container">
+    <div class="row">
+    	<div class="col-12">
+    	<ul class="gallery-filter">
+   			<li><a href="javascript:void(0);" data-filter="*" class="current">ALL</a></li>
+          	<li><a href="javascript:void(0);" data-filter=".one">Interior</a></li>
+          	<li><a href="javascript:void(0);" data-filter=".two">Building</a></li>
+          	<li><a href="javascript:void(0);" data-filter=".three">Spaces</a></li>
+   		</ul>
+    		<ul class="gallery">
+    			<li class="one"><a href="{% static 'images/gallery-thumb01.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb01.jpg'%}" alt="Image"></a></li>
+    			<li class="two"><a href="{% static 'images/gallery-thumb07.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb07.jpg'%}" alt="Image"></a></li>
+    			<li class="three"><a href="{% static 'images/gallery-thumb02.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb02.jpg'%}" alt="Image"></a></li>
+    			<li class="one"><a href="{% static 'images/gallery-thumb04.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb02.jpg'%}" alt="Image"></a></li>
+    			<li class="two"><a href="{% static 'images/gallery-thumb03.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb03.jpg'%}" alt="Image"></a></li>
+    			<li class="three"><a href="{% static 'images/gallery-thumb09.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb09.jpg'%}" alt="Image"></a></li>
+    			<li class="two"><a href="{% static 'images/gallery-thumb10.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb10.jpg'%}" alt="Image"></a></li>	
+    			<li class="one"><a href="{% static 'images/gallery-thumb01.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb01.jpg'%}" alt="Image"></a></li>
+    			<li class="three"><a href="{% static 'images/gallery-thumb05.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb05.jpg'%}" alt="Image"></a></li>
+    			<li class="one"><a href="{% static 'images/gallery-thumb11.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb11.jpg'%}" alt="Image"></a></li>
+    			<li class="two"><a href="{% static 'images/gallery-thumb12.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb12.jpg'%}" alt="Image"></a></li>
+    			<li class="three"><a href="{% static 'images/gallery-thumb07.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb07.jpg'%}" alt="Image"></a></li>
+    			<li class="one"><a href="{% static 'images/gallery-thumb01.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb01.jpg'%}" alt="Image"></a></li>
+    			<li class="two"><a href="{% static 'images/gallery-thumb03.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb03.jpg'%}" alt="Image"></a></li>
+    			<li class="one"><a href="{% static 'images/gallery-thumb11.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb11.jpg'%}" alt="Image"></a></li>
+    			<li class="one"><a href="{% static 'images/gallery-thumb08.jpg'%}" data-fancybox><img src="{% static 'images/gallery-thumb08.jpg'%}" alt="Image"></a></li>
+    		</ul>
+    	</div>
+    	<!-- end col-12 -->
+    </div>
+    <!-- end row --> 
+  </div>
+  <!-- end container --> 
+</section>
+<!-- end photo-gallery -->
+{% endblock %}
