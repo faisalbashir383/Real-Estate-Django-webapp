@@ -1,0 +1,1 @@
+web: gunicorn bhat.wsgi --log-file -
