@@ -27,7 +27,7 @@ SECRET_KEY = '+_h5#e-&+2c(9%vydrpy-+x)a45*grhk52lg$i^_^y3w!6=589'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bhatconstructions.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['bhatconstructions.herokuapp.com','127.0.0.1','www.bhatconstructions.com','bhatconstructions.com']
 
 
 # Application definition
